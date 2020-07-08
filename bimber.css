@@ -1,0 +1,145 @@
+
+/* 480px and below screen sizes */
+@media (max-width:480px){
+
+	/* List Item */
+	#aps-offers .aps-column li{
+		border-width:1px;
+		border-color:#efedf1;
+		padding:4px;
+		border-radius: 4px;
+		box-shadow:0px 0px 10px 0px #ecf0f1;
+	}
+	
+	/* List Item */
+	.aps-tab-container #aps-offers .aps-column .aps-offers-list li{
+		display:inline-flex !important;
+	}
+	
+	/* Offer thumb */
+	#aps-offers .aps-column .aps-offers-list li .aps-offer-thumb{
+		width:150px !important;
+	}
+	
+	/* Offer price */
+	.aps-offers-list li .aps-offer-price{
+		color:#16a085;
+		font-size:14px;
+		position:relative;
+		top:10px;
+		font-weight:500;
+	}
+	
+	/* Offer price */
+	#page #aps-offers li .aps-offer-price{
+		font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+	}
+	
+	/* Offer title */
+	.aps-offers-list li .aps-offer-title{
+		font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+		font-size:11px;
+		position:relative;
+		top:5px;
+	}
+	
+	/* Image */
+	.aps-column .aps-offers-list li .aps-offer-thumb img{
+		width:40px !important;
+	}
+	
+	/* Image */
+	.aps-offers-list li img{
+		width: 40px;
+		position:relative;
+		top:5px;
+	}
+	
+	/* Button */
+	.aps-offers-list li .aps-button{
+		position:relative;
+		top:-10px;
+	}
+	
+}
+
+
+/* 1024px and below screen sizes */
+@media (max-width:1024px){
+	/* Wd products */
+	#page .aps-widget .aps-wd-products{
+		left:-20px;
+		
+	}
+
+	/* Link */
+	.aps-wd-products li a{
+		width:113px;
+		min-height:190px;
+		height:190px;
+	}
+	
+	/* List Item */
+	.g1-row .g1-row-inner .g1-column .wpb_row .vc_column_container .vc_column-inner .wpb_wrapper .wpb_widgetised_column .wpb_wrapper .aps-widget .aps-wd-products li{
+		width:113px !important;
+	}
+	
+	/* List Item */
+	.aps-widget .aps-wd-products li{
+		position:relative;
+		height:190px;
+	}
+	
+	/* List */
+	.wpb_widgetised_column .aps-widget ul{
+		overflow: auto;
+		white-space: scroll;
+		display:flex;
+		position:relative;
+		top:-25px;
+	}
+	
+}
+
+/* 1024px and above screen sizes */
+@media (min-width:1024px){
+		/* Wd products */
+	#page .aps-widget .aps-wd-products{
+		left:-15px;
+		
+	}
+
+	/* Link */
+	.aps-wd-products li a{
+		width:110px;
+		min-height:190px;
+		height:190px;
+	}
+	
+	/* List Item */
+	.g1-row .g1-row-inner .g1-column .wpb_row .vc_column_container .vc_column-inner .wpb_wrapper .wpb_widgetised_column .wpb_wrapper .aps-widget .aps-wd-products li{
+		width:110px !important;
+	}
+	
+	/* List Item */
+	.aps-widget .aps-wd-products li{
+		position:relative;
+
+		height:190px;
+	}
+	
+	/* List */
+	.wpb_widgetised_column .aps-widget ul{
+		position:relative;
+		top:-25px;
+	}
+	
+}
+
+/* CAMPURAN  */
+
+#primary ol span{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Arial,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}.aps-product-meta .aps-compare-btn .aps-compare-txt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.aps-compare-btn .aps-compare-txt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .aps-single-product .aps-main-features{width:40%!important}#page .aps-single-product .mashsb-container{position:relative;left:12px;border-style:none}#aps-specs .aps-column{overflow-y:scroll;height:1000px}.aps-wd-products li a{height:172px;min-height:172px}#page .rank-math-breadcrumb p{margin-bottom:0;margin-top:-5px}.aps-single-product .mashsb-box .mashsb-buttons{margin-top:0}#aps-overview .aps-column p{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;color:#000}#apsReviewFields li .aps-tooltip{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#apsReviewFields li .aps-button{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;text-transform:capitalize}.aps-product-videos .aps-video-col .aps-video-box{border-radius:10px;border-width:1px;border-color:#ddd}.aps-product-videos .aps-video img{border-radius:10px}.aps-sidebar .aps-widget .aps-widget-title{border-bottom-width:1px;border-bottom-color:#ddd}#aps-specs .aps-group .aps-icon-tablet{color:#16a085}#aps-specs .aps-group .aps-icon-art{color:#16a085}#aps-specs .aps-group .aps-icon-tower{color:#16a085}#aps-specs .aps-group .alignright{color:#16a085}div .aps-icon-libra{color:#16a085}#aps-specs .aps-attr-value span{color:#16a085}#aps-specs tr .aps-term{color:#000;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#apsReviewFields li label{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.g1-body-inner #page .g1-sticky-top-wrapper .g1-row .g1-row-inner .g1-dropable .g1-bin-grow-on .g1-bin nav ul .menu-item a{font-size:15px!important}.g1-bin-grow-on .g1-bin nav ul .menu-item a{font-size:15px;color:#000}#page .tagcloud a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page>.g1-row>.g1-row-inner>.g1-column .menu-item a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#primary .entry-featured-media-main .wp-caption-text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}@media (max-width:568px){.entry-inner .mashsb-box{width:97%}#primary .g1-content-narrow p{font-size:16px}}@media (max-width:480px){.aps-single-product .aps-tab-container #aps-offers .aps-column .aps-offers-list li{width:48%!important;border-color:#ddd!important}#aps-offers .aps-column li{border-width:1px;border-radius:8px;margin:2px;height:250px;min-height:250px}.aps-offers-list li .aps-button{position:relative;width:95%}.aps-offers-list li .aps-offer-link{width:95%}.aps-offers-list li img{max-height:78px}}/* APS FEATURESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS  */#page .aps-single-product .mashsb-container{width:100%!important;max-width:100%}.aps-single-product .aps-product-meta{margin-bottom:10px;padding-left:10px}.aps-single-product .aps-main-features{width:70%!important}.aps-container .aps-row .aps-content-left .aps-single-product .aps-row .aps-main-features{width:30%!important}@media (max-width:1024px){#page .aps-single-product .aps-main-features{width:70%!important}}@media (max-width:480px){#page .aps-single-product .aps-tabs{display:flex;overflow-x:scroll;width:100%}.aps-product-meta .aps-product-price span:before{content:"Harga "}.aps-product-meta .aps-product-price span:after{content:"an"}#page .aps-products-grid>li{width:33.3333%!important;padding:1px}.aps-single-product .mashsb-container{padding-left:0;padding-right:0;margin-left:-3px;margin-right:0}#page .aps-single-product .aps-main-features{width:79%!important}#page .aps-container .aps-row .aps-content-left .aps-single-product .aps-row .aps-main-features{width:69%!important}}@media (min-width:320px){.aps-container{min-width:310px;max-width:95%}.aps-product-pic{width:30%}.aps-single-product .aps-main-features{width:75%!important}.aps-product-meta .aps-product-price span:before{content:"Harga "}.aps-product-meta .aps-product-price span:after{content:" an"}#page .aps-products-grid>li{width:33.3333%!important;padding:1px}.aps-single-product .mashsb-container{padding-left:0;padding-right:0;margin-left:-3px;margin-right:0}}@media (min-width:480px){.aps-container{min-width:470px;max-width:95%}}@media (min-width:769px){.aps-tabs li a{margin-right:10px}}@media (min-width:800px){#page .aps-products-grid>li{width:19%!important;padding:3px}.g1-body-inner #page .aps-container .aps-row .aps-content-left .aps-single-product .aps-row .aps-main-features .aps-features-iconic li{height:48px!important}}@media (min-width:1200px){.aps-container{min-width:1190px;max-width:95%}.aps-product-pic{width:30%}}
+/* BIMBER FEATURESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */#content tbody .specTblCont td{width:40%!important}#content .entry-tpl-classic .entry-inner .g1-content-narrow .specTbl tbody .specTblCont td{width:40px!important}.specTbl .specTblCont td{width:40%!important}#page .g1-row-layout-page .g1-row-inner #primary #content .entry-tpl-classic .entry-inner .g1-content-narrow .specTbl tbody .specTblCont th{width:40%!important}#page .g1-row-layout-page .g1-row-inner #primary #content .entry-tpl-classic .entry-inner .g1-content-narrow .specTbl tbody .specTblCont .ttl{width:20%!important}.specTbl tbody .specTblCont{border-width:1px;border-radius:10px;border-color:#ddd}.clearfix,.g1-socials-section .g1-socials-items{font-size:inherit;line-height:inherit}.post .g1-content-narrow p{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.g1-content-narrow ol li{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.post h3{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.post ul{margin-top:0!important;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page>.g1-row>.g1-row-inner .g1-bin nav ul{padding-bottom:0}.g1-sticky-top-wrapper .g1-row .g1-row-inner .g1-dropable .g1-bin-grow-on .g1-bin{height:60px}.g1-bin-grow-on .g1-bin nav ul .menu-item a{
+    font-size: 15px;
+    color:#000000;
+}#page .g1-sticky-top-wrapper .g1-row .g1-row-inner .g1-dropable .g1-bin-grow-on .g1-bin nav ul .menu-item a{font-size:19px!important;font-size:16px!important}.g1-bin-grow-on .g1-bin .g1-id .site-title a .g1-logo img{height:35px;width:130px}.g1-dropable .g1-bin-grow-off .g1-bin .g1-drop-text .g1-drop-toggle span{color:#000!important}.g1-drop-text .g1-drop-toggle span{color:#000;font-weight:600;font-size:9px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;border-width:1px;padding-right:10px;padding-left:10px;border-radius:20px;border-color:#ddd;background-color:#ddd}.g1-body-inner #page .g1-sticky-top-wrapper .g1-row .g1-row-inner .g1-dropable .g1-bin-grow-off .g1-bin .g1-drop-text .g1-drop-toggle span{color:#000!important}#page>.g1-row>.g1-row-inner>.g1-column>p{font-size:10px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .g1-row:nth-child(9) .menu-item:nth-child(1) a{font-size:10px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .g1-row:nth-child(9) .menu-item:nth-child(2) a{font-size:10px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .g1-row:nth-child(9) .menu-item:nth-child(3) a{font-size:10px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .g1-row:nth-child(9) .menu-item:nth-child(4) a{font-size:10px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#content .post .entry-inner .mashsb-container{padding-left:0;margin-left:0;margin-right:0;margin-top:-10px;border-top-style:none;padding-top:0;padding-bottom:0}#primary .entry-header .entry-categories-l{margin-top:-10px;margin-bottom:5px;border-top-width:1px;border-bottom-width:1px;border-bottom-color:#ddd;border-top-color:#ddd;overflow:auto;white-space:nowrap}.g1-widget-posts a .wp-post-image{border-radius:5px}.entry-inner ul li{margin-bottom:10px}.entry-inner div ul{margin-top:-50px}.single .mashsb-main{margin:0 -15px;padding:10px}.entry-title>a,.g1-body-inner .g1-primary-nav-menu>.menu-item>a,.g1-delta-2nd,.g1-mega,.g1-primary-nav-menu>.menu-item>a,h1,h2,h3,h4{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;font-weight:700}.g1-dont-miss h2 span{display:none;display:none}.g1-more-from h2 span{display:none;display:none}#page>.g1-row>.g1-row-inner>.g1-column .menu-item a{border-width:0}#page>.g1-row>.g1-row-inner .g1-bin nav ul .menu-item a{border-width:1px;border-radius:18px;border-color:#ddd;padding-right:12px;padding-left:12px;padding-top:7px;padding-bottom:7px;margin-top:6px;margin-bottom:6px;font-weight:600;font-size:15px}.g1-bin-grow-off .g1-bin nav ul .menu-item a:before{content:"#"!important;display:inline-block!important;font-weight:600;font-family:Sans-serif;padding-right:4px;font-size:110%;color:#34495e}.g1-dropable .g1-bin-grow-on .g1-bin nav ul .menu-item a{font-size:16px!important}.tagcloud{overflow:auto;padding-bottom:10px}.entry-tags{overflow-x:scroll;overflow-x:hidden;max-width:100vw}.entry-tags span{overflow-x:scroll;overflow-y:hidden;max-width:100vw}.g1-bin nav>ul>.menu-item>a{font-weight:500;font-size:14px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .g1-row .g1-row-inner .g1-dropable .g1-bin-grow-off .g1-bin .g1-drop-text .g1-drop-toggle span{color:#fff!important}.g1-hamburger-icon{color:#fff;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;padding-top:8px;padding-bottom:8px;background-color:#16a085}.single .entry-categories{width:100%;width:100vw;max-width:100%;list-style:none;margin:0 0 10px 0;max-width:100%;overflow-y:hidden;overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap;background:0 0}.entry-categories .entry-category span{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;text-transform:uppercase;font-size:15px;font-weight:700;color:#16a085}.single .entry-category:before{content:"# ";font-weight:900;font-size:16px;color:#16a085;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.entry-meta .entry-byline-m .entry-date{position:relative;bottom:-20px;left:-90px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.entry-author a strong{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.entry-author a strong:before{content:"Oleh "}.entry-byline-m .entry-author span{display:none}.g1-collection-list .entry-title a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.g1-collection-list ul .entry-date{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.g1-collection-list a strong{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.g1-collection-list a strong:before{content:"Oleh "}.g1-collection-list .entry-author span{display:none}.g1-mosaic-2-4-4 .g1-mosaic-item .post .entry-featured-media a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .g1-bin .g1-button{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .textwidget p{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}#page .g1-row:nth-child(8) .g1-widget-posts p{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}@media (max-width:767px){#page>.g1-row>.g1-row-inner .g1-bin nav ul{padding-bottom:0;padding-top:0}.g1-collection-columns-2 ul li{border-color:#ddd;border-width:1px;border-radius:5px;padding-left:0;padding-right:0;margin-left:2px;margin-right:2px;margin-bottom:10px;height:200px;width:32%}.g1-collection-columns-2 a .wp-post-image{border-radius:5px}#page .g1-dropable{overflow:auto;white-space:nowrap}.g1-collection-list ul .post{border-bottom-width:1px;border-bottom-color:#ddd;margin-bottom:0;padding-top:5px;padding-bottom:5px}.g1-collection-list a .wp-post-image{border-radius:5px}.g1-collection-list .entry-title a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}}@media (max-width:676px){.g1-body-inner #page .g1-row-layout-page .g1-row-inner #primary #content .post .mashsb-container{width:100%!important}.entry-inner .mashsb-box .mashsb-buttons{margin-left:-5px;margin-right:0}.g1-collection-columns-2 ul li{border-color:#ddd;border-width:1px;border-radius:5px;padding-left:0;padding-right:0;margin-left:2px;margin-right:2px;margin-bottom:10px;height:200px;width:32%}.g1-collection-columns-2 a .wp-post-image{border-radius:5px}.g1-related-entries a .wp-post-image{border-radius:5px}.g1-related-entries .entry-body a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.g1-related-entries ul .post{margin-bottom:0;padding:5px 0 5px 0;border-bottom-width:1px;border-color:#ddd}.g1-collection-list ul .post{border-bottom-width:1px;border-bottom-color:#ddd;margin-bottom:0;padding-top:5px;padding-bottom:5px}.g1-collection-list a .wp-post-image{border-radius:5px}#secondary{display:none}.g1-mosaic-2-4-4 a .wp-post-image{border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-left-radius:3px}.g1-mosaic-2-4-4 .post .entry-featured-media{border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-left-radius:3px}.g1-mosaic-2-4-4 a .g1-frame-inner{border-radius:3px}.g1-mosaic-2-4-4 .g1-mosaic-item .post .entry-featured-media a{border-radius:3px}.g1-mosaic-2-4-4 .g1-mosaic-item .post{border-radius:3px}#page .g1-column .g1-mosaic-item{border-radius:3px}#page .g1-column .g1-mosaic-2-4-4{border-radius:3px}.g1-collection-list ul footer{display:none}.g1-collection-columns-2 .g1-collection-item{width:47%}.g1-dont-miss ul li{border-color:#ddd;border-width:1px;border-radius:5px;padding-left:0;padding-right:0;margin-left:2px;margin-right:2px;margin-bottom:10px;height:200px;position:relative;left:4px}.g1-dont-miss .entry-body a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;position:relative;left:2px}.g1-dont-miss a .g1-nsfw{border-top-left-radius:5px;border-top-right-radius:5px}.g1-more-from ul li{border-color:#ddd;border-width:1px;border-radius:5px;padding-left:0;padding-right:0;margin-left:2px;margin-right:2px;margin-bottom:10px;height:200px;position:relative;left:4px}.g1-more-from .entry-body a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;position:relative;left:2px}.g1-more-from a .g1-nsfw{border-top-left-radius:5px;border-top-right-radius:5px}}@media (max-width:600px){#page .g1-column .g1-mosaic-item{padding-top:110px}.g1-dont-miss ul li{height:203px}}@media (max-width:568px){.entry-inner .mashsb-box .mashsb-buttons{margin-top:-20px;margin-right:-10px;margin-left:-6px}}@media (min-width:800px){.g1-secondary-nav-menu{width:100vw;max-width:100%;list-style:none;margin:0;max-width:100%;overflow-y:hidden;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:5px 0;white-space:nowrap}.g1-hb-row-3 .g1-column{width:100vw!important;position:relative;padding:0;overflow:hidden}.g1-secondary-nav ::-webkit-scrollbar{height:8px!important;margin-top:5px!important}.g1-secondary-nav ::-webkit-scrollbar-thumb:hover{background:#ccc;-webkit-transition:all .15s ease-out;-moz-transition:all .15s ease-out;transition:all .15s ease-out}.g1-collection-columns-2 ul li{border-color:#ddd;border-width:1px;border-radius:5px;padding-left:0;padding-right:0;margin-left:2px;margin-right:2px;margin-bottom:10px;height:240px;width:32%}.g1-collection-columns-2 a .wp-post-image{border-radius:5px}.g1-collection-list ul .post{border-bottom-width:1px;border-bottom-color:#ddd;margin-bottom:0;padding-top:5px;padding-bottom:5px;border-radius:8px;border-width:1px;border-color:#ddd}.g1-collection-list a .wp-post-image{border-radius:5px;border-radius:8px 0 0 8px}#primary .mashsb-micro-wrapper img{border-radius:10px;height:350px}.g1-collection-list .entry-title a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important}.g1-related-entries ul .post{border-width:1px;border-radius:10px;border-color:#ddd}.g1-related-entries a .wp-post-image{border-radius:8px 0 0 8px}.g1-mosaic-2-4-4 a .wp-post-image{border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px}.g1-mosaic-2-4-4 .post .entry-featured-media{border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px}.g1-mosaic-2-4-4 a .g1-frame-inner{border-radius:8px}.g1-mosaic-2-4-4 .g1-mosaic-item .post .entry-featured-media a{border-radius:8px}.g1-mosaic-2-4-4 .g1-mosaic-item .post{border-radius:8px}#page .g1-column .g1-mosaic-item{border-radius:8px}#page .g1-column .g1-mosaic-2-4-4{border-radius:8px}.g1-collection-columns-2 .g1-collection-item{width:32%}.g1-dont-miss ul li{border-color:#ddd;border-width:1px;border-radius:5px;padding-left:0;padding-right:0;margin-left:2px;margin-right:2px;margin-bottom:10px;height:245px}.g1-dont-miss .entry-body a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;position:relative}.g1-dont-miss a .g1-nsfw{border-top-left-radius:5px;border-top-right-radius:5px}.g1-more-from ul li{border-color:#ddd;border-width:1px;border-radius:5px;padding-left:0;padding-right:0;margin-left:2px;margin-right:2px;margin-bottom:10px;height:245px}.g1-more-from .entry-body a{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;position:relative}.g1-more-from a .g1-nsfw{border-top-left-radius:5px;border-top-right-radius:5px}}@media (min-width:1024px){.g1-dropable .g1-bin-grow-off .g1-bin .g1-drop-text .g1-drop-toggle span{color:#000!important}.g1-drop-text .g1-drop-toggle span{color:#000;font-weight:600;font-size:9px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;border-width:1px;padding-right:10px;padding-left:10px;border-radius:20px;border-color:#ddd;background-color:#ddd;margin-right:100px}}
