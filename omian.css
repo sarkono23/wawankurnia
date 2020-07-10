@@ -1,0 +1,153 @@
+/* Heading */
+.et_pb_tab_active a h3{
+	font-size:16px;
+}
+
+/* Heading */
+.et_pb_tabs_controls a h3{
+	font-size:16px;
+}
+
+/* Heading */
+.et_pb_section_0 .et_pb_text .elementor-heading-title{
+	color:#ffffff;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+/* Heading */
+.et_pb_section_0 .et_pb_text h3{
+	color:#ffffff;
+}
+
+/* Game Unknownion */
+#game-selection{
+	color:#ffffff;
+}
+
+/* Heading */
+.et_pb_section_0 .et_pb_text h2{
+	color:#ffffff;
+	
+}
+
+/* Pb tabs */
+.et_pb_section_0 .et_pb_column .et_pb_tabs{
+	margin-bottom:35px !important;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+#main-header{
+	background-color:#189970;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+.et_pb_column .et_pb_module .et_pb_code_inner div div{
+	width:100%;
+}
+
+.entry-content #et-boc .et-l .et_builder_inner_content .et_pb_section_0 .et_pb_row .et_pb_column .et_pb_module .et_pb_code_inner div div label{
+	width:100%!important;
+}
+
+#et-boc .et-l .et_builder_inner_content .et_pb_section_0 .et_pb_row .et_pb_column .et_pb_module .et_pb_code_inner div div label input[type=search]{
+	width:100%!important;
+}
+
+.et_pb_section_0 div input[type=search]{
+	display:block;
+	position:relative;
+	left:-6px;
+	min-height:30px;
+	border-radius:5px;
+	width:100%;
+}
+
+.et_pb_section_0 tr img{
+	height:40px;
+}
+
+.et_pb_module .et_pb_text_inner div div{
+	width:100%!important;
+}
+
+.et_pb_section_0 div label{
+	width:100%!important;
+}
+
+.et_pb_section_0 .et_pb_text p{
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+.et_pb_section_0 div .tablepress{
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+.et_pb_section_0 .et_pb_column .et_pb_accordion{
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+.et-waypoint .et_pb_counter .et_pb_counter_title{
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+#footer-widgets .footer-widget{
+	display:none;
+}
+
+/* 980px and below screen sizes */
+@media (max-width:980px){
+
+	.et_pb_section_0 .et_pb_column .et_pb_image_15{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_16{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_17{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_18{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_19{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_20{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_21{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_22{
+		top:-35px;
+	}
+	
+	.et_pb_section_0 .et_pb_column .et_pb_image_23{
+		top:-35px;
+	}
+	
+}
+
+/* 767px and below screen sizes */
+@media (max-width:767px){
+
+	.et_pb_text_inner>div{
+		overflow-y:scroll;
+	}
+	
+	.et_pb_text_inner>div:before{
+		content:"Silahkan Geser Jika Tabel tidak Cukup Dimuat";
+		width:100%!important;
+		position:relative;
+		text-align:center;
+	}
+	
+}
