@@ -126,6 +126,10 @@ a .wp-post-image{
 	-moz-transition:all .15s ease-out;
 	transition:all .15s ease-out;
 }
+/* Thumbnail Image */
+	#primary .g1-frame .mashsb-micro-wrapper img{
+	height:323px;
+	}
 
 
 /* 800px and below screen sizes */
@@ -194,10 +198,7 @@ a .wp-post-image{
 		border:1px solid #ddd;
 		border-radius:8px;
 	}
-	/* Thumbnail Image */
-	#primary .g1-frame .mashsb-micro-wrapper img{
-	height:323px;
-	}
+	
 }
 
 /* --aps product home */
