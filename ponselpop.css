@@ -126,7 +126,7 @@ a .wp-post-image{
 	-moz-transition:all .15s ease-out;
 	transition:all .15s ease-out;
 }
-@media (min-width:801px}{
+@media (min-width:900px}{
 /* Thumbnail Image */
 	#primary .g1-frame .mashsb-micro-wrapper img{
 	height:323px;
