@@ -236,6 +236,11 @@ a .wp-post-image{
 	height:80px !important;
 }
 
+/* Link */
+.aps-wd-products li a{
+	position: relative;
+	left: 8px;
+}
 
 /* Column inner */
 #page .vc_column-inner{
