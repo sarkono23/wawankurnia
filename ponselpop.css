@@ -126,11 +126,6 @@ a .wp-post-image{
 	-moz-transition:all .15s ease-out;
 	transition:all .15s ease-out;
 }
-/* Thumbnail Image */
-	#primary .g1-frame .mashsb-micro-wrapper img{
-	height:320px;
-}
-
 
 /* 800px and below screen sizes */
 @media (max-width: 800px){
@@ -187,8 +182,6 @@ a .wp-post-image{
 	.g1-column .g1-mosaic-item{
 		padding-top:90px;
 	}
-	#primary .g1-frame .mashsb-micro-wrapper img{
-		height: 250px;
 	
 }
 
