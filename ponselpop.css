@@ -127,6 +127,7 @@ a .wp-post-image{
 	transition:all .15s ease-out;
 }
 
+
 /* 800px and below screen sizes */
 @media (max-width: 800px){
 
@@ -193,7 +194,10 @@ a .wp-post-image{
 		border:1px solid #ddd;
 		border-radius:8px;
 	}
-	
+	/* Thumbnail Image */
+	#primary .g1-frame .mashsb-micro-wrapper img{
+	height:323px;
+	}
 }
 
 /* --aps product home */
