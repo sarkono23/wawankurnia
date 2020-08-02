@@ -509,7 +509,7 @@ a .wp-post-image{
 }
 
 /* List */
-#aps-overview .aps-column ul{
+.aps-column ul{
 	font-size:10px;
 	
 }
