@@ -1,4 +1,3 @@
-/* Span Tag */
 ol span{
 	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
 }
@@ -57,6 +56,66 @@ h1, h2, h3, h4{
 }
 
 
+
+/* Thumbnail Image */
+	#primary .g1-frame .mashsb-micro-wrapper img{
+	height:320px;
+}
+
+.aps-content{
+	font-size: 14px;
+}
+
+
+
+/* Entry before title */
+.entry-inner .entry-header .entry-before-title{
+	border-bottom-color:#16a085;
+	border-bottom-width: 1px;
+	border-top-color: #16a085;
+	border-top-width: 1px;
+	margin-top:-10px;
+	height:30px;
+	margin-bottom:5px;
+}
+
+/* Link */
+.entry-categories-l a{
+	margin-top:5px;
+}
+
+/* Link */
+#content .entry-before-title a{
+	background-color:transparent;
+	border-style: none;
+	color:#16a085;
+}
+
+/* Link */
+#content .entry-before-title a:after{
+	content:"/";
+	margin-left:5px;
+}
+
+/* Entry date */
+.entry-meta .entry-byline-m .entry-date{
+	position:relative;
+	left:-100px;
+	top:15px;
+	color:#16a085;
+	font-size:13px;
+}
+
+/* Strong Tag */
+.entry-author a strong:before{
+	content: "Oleh ";
+}
+.g1-footer-stamp-icon {
+	padding-bottom:8px;
+}
+
+
+
 .wp-post-image{
 	border-radius:8px;
 }
@@ -75,15 +134,6 @@ a .wp-post-image{
 	color:#000000;
 }
 
-.g1-bin-grow-off .g1-bin nav ul .menu-item a:before{
-	content:"#"!important;
-	display:inline-block!important;
-	font-weight:600;
-	font-family:Sans-serif;
-	padding-right:4px;
-	font-size:110%;
-	color:#34495e;
-}
 
 .g1-hamburger-icon{
 	color:#fff;
@@ -185,6 +235,29 @@ a .wp-post-image{
 	
 }
 
+/* 600px and below screen sizes */
+@media (max-width: 600px){
+
+	.g1-column .g1-mosaic-item{
+		padding-top:90px;
+	}
+
+	
+}
+
+
+
+/* 480px and below screen sizes */
+@media (max-width:480px){
+
+	/* Thumbnail Image */
+	#primary .g1-frame .mashsb-micro-wrapper img{
+		height: 230px;
+		margin-bottom:-20px;
+	}
+	
+}
+
 
 /* 700px and above screen sizes */
 @media (min-width: 700px){
@@ -196,122 +269,454 @@ a .wp-post-image{
 	
 }
 
-/* --aps product home */
-/* Wd title */
-.aps-wd-products a .aps-wd-title{
-	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
-	text-align: left;
-	position: relative;
-	top:-80%;
-	width: 70%;
-	left: 70px;
-	font-size: 14px;
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(1) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(2) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
 }
 
-/* Price value */
-.aps-wd-products a .aps-price-value{
-	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
-	text-align: left;
-	position: relative;
-	top:-70%;
-	width: 70%;
-	left: 70px;
-	font-size: 15px;
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(3) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
 }
 
-/* Image */
-.aps-wd-products a img{
-	width:25%;
-	position: relative;
-	padding-top: 8px;
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(4) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(5) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(6) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(7) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(8) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(9) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(10) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(11) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(12) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(13) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(14) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(15) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(16) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(17) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(18) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+
+/* Link */
+#page .g1-row:nth-child(3) .menu-item:nth-child(19) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+
+}
+/* Link */
+.aps-sidebar .aps-widget .aps-wd-products li a{
+	width:102px !important;
+}
+
+/* Link */
+.g1-body-inner #page .aps-container .aps-row .aps-sidebar .aps-widget .aps-wd-products li a{
+	height:175px !important;
+}
+/* Link */
+.aps-wd-products li a{
+	height:200px;
+	width:130px;
 }
 
 /* List Item */
-.aps-widget .aps-wd-products li{
-	width:258px;
-}
-
-/* Link */
-.wpb_wrapper .aps-widget .aps-wd-products li a{
-	height:80px !important;
-}
-
-/* Link */
-.aps-wd-products li a{
-	position: relative;
-	left: 8px;
+.wpb_widgetised_column .widget li{
+	display:table-cell;
 }
 
 /* Column inner */
 #page .vc_column-inner{
-	margin-top:-35px;
+	margin-top:10px;
 }
 
-/* Heading */
-.wpb_widgetised_column .aps-widget h3{
-	position:relative;
-	left:8px;
+/* List */
+.wpb_widgetised_column .widget ul{
+	overflow: auto;
 }
 
-/* Wd thumb */
-.wpb_widgetised_column a .aps-wd-thumb{
-	height: 80px !important;
+/* Wpb row */
+#page .g1-column .wpb_row{
+	height:235px;
+}
+/* Price value */
+.aps-wd-products a .aps-price-value{
+	padding-top:3px;
+	
+}
+/* Link */
+.aps-wd-products li a{
+	padding-top:0px;
+	
+}
+/* Link */
+.aps-products-grid .aps-item-meta a{
+	font-weight:500;
+	font-size:12px;
+}
+
+/* Price value */
+.aps-products-grid li .aps-price-value{
+	font-size:13px;
+}
+
+/* Compare txt */
+.aps-products-grid li .aps-compare-txt{
+	font-size:11px;
+}
+
+/* Product box */
+.aps-products-grid li .aps-product-box{
+	height:240px;
+}
+
+/* List Item */
+#page .aps-products-grid > li{
+	width:135px;
+	
 }
 
 /* 480px and below screen sizes */
-@media (max-width:900px){
-	
+@media (max-width:480px){
 
-	/* List */
-	.wpb_widgetised_column .aps-widget ul{
-		overflow: auto;
-		white-space: nowrap;
-		margin-bottom:-10px;
-	}
-	
-	/* Wd title */
-	.aps-wd-products a .aps-wd-title{
-		font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
-		font-size: 13px;
-		text-align: left;
-		position: relative;
-		top:-55%;
-		width: 50%;
-		left: 27%;
-	}
-	
-	/* Price value */
-	.aps-wd-products a .aps-price-value{
-		font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
-		font-size: 15px;
-		top:-45%;
-		width: 50%;
-		left:27%;
-	}
-	
-	/* Price value */
-	.aps-wd-products a .aps-price-value:after{
-		font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
-		content:" - Lihat Spesifikasi";
-		position: relative;
-		color:#333;
-		font-size: 13px;
-	}
-	
-	/* Image */
-	.aps-wd-products a img{
-		width:25%;
-		position: relative;
-	}
-	
 	/* List Item */
-	.aps-widget .aps-wd-products li{
-		width:340px;
+	#page .aps-products-grid > li{
+		width:32%;
 	}
 	
-	/* Link */
-	.wpb_wrapper .aps-widget .aps-wd-products li a{
-		height:100px !important;
+	/* Product box */
+	.aps-products-grid li .aps-product-box{
+		margin:-9px;
+	}
+	
+	/* Compare txt */
+	.aps-products-grid li .aps-compare-txt{
+		font-weight:500;
+		font-size:10px;
 	}
 	
 }
+
+/* 480px and below screen sizes */
+@media (max-width:480px){
+
+	/* Content left */
+	.aps-container .aps-content-left{
+		width:110%;
+		margin-left:-20px;
+	}
+	
+}
+
+/* Division */
+.aps-main-features .aps-product-meta > div{
+	margin-top:3px;
+	margin-bottom:3px;
+	border-bottom-width:1px;
+	border-bottom-style:none;
+	border:1px #dddddd solid;
+	border-radius: 3px;
+	background-color:#ecf0f1;
+}
+
+
+/* Compare txt */
+.aps-product-meta .aps-compare-btn .aps-compare-txt{
+	text-align:center;
+	background-color:#ecf0f1;
+}
+
+
+/* Price value */
+.aps-product-meta .aps-product-price .aps-price-value{
+	background-color:#f1f0ed;
+}
+
+
+/* Price value */
+.aps-product-meta .aps-product-price .aps-price-value:before{
+	content:"Harga:";
+	padding-right:5px;
+}
+
+
+/* Flip back */
+.aps-features li .flip-back{
+	font-size:12px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+/* Rd box */
+.aps-related-products li .aps-rd-box{
+	font-size:13px;
+}
+
+
+/* Compare stat */
+.aps-product-meta .aps-compare-btn .aps-compare-stat{
+	margin-top:3px;
+}
+
+
+/* Paragraph */
+#page .rank-math-breadcrumb p{
+	margin-bottom:-5px;
+	margin-top:15px;
+}
+
+/* Link */
+#sabai_platform_wordpress_sabai_questions_askbtn-2 .sabai-widget-questions-askbtn a{
+	width:100%;
+	background-color:#16a085 !important;
+	border-width:1px;
+	border-color:#16a085 !important;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* Link */
+.g1-body-inner #page .g1-row .g1-row-inner #secondary #sabai_platform_wordpress_sabai_questions_askbtn-2 .sabai-widget-questions-askbtn a{
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+/* Input */
+.mc4wp-form-fields p input[type=email]{
+	width:100%;
+	text-align:center;
+}
+
+#mc4wp-form-1 .mc4wp-form-fields p label input[type=email]{
+	width:184% !important;
+	border:1px solid;
+}
+
+/* Input */
+#mc4wp-form-1 .mc4wp-form-fields p input{
+	width:100% !important;
+}
+
+/* Input */
+.mc4wp-form-fields p input{
+	font-size:15px;
+	font-weight:600;
+}
+
+/* Paragraph */
+#page .widget p{
+	font-size:17px;
+	color:#ffffff;
+}
+
+/* Span Tag */
+#page .g1-bin-grow-off:nth-child(2) span:nth-child(2){
+	padding:3px 10px 2px 10px;
+	background-color: #ddd;
+	border-radius:15px;
+	font-size: 8px;
+	font-weight: 500;
+}
+
