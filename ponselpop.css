@@ -507,6 +507,12 @@ a .wp-post-image{
 	color:#34495e;
 
 }
+
+/* List */
+#aps-overview .aps-column ul{
+	font-size:10px;
+	
+}
 /* Link */
 .aps-sidebar .aps-widget .aps-wd-products li a{
 	width:102px !important;
