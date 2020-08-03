@@ -508,6 +508,14 @@ a .wp-post-image{
 
 }
 
+/* APS AWAL */
+
+/* Item buttons */
+.aps-products-grid li .aps-item-buttons{
+	text-align:center;
+}
+
+
 /* List */
 .aps-column ul{
 	font-size:10px;
@@ -611,7 +619,7 @@ a .wp-post-image{
 	/* Content left */
 	.aps-container .aps-content-left{
 		width:110%;
-		margin-left:-20px;
+		margin-left:-9px !important;
 	}
 	
 }
@@ -667,6 +675,7 @@ a .wp-post-image{
 	margin-top:3px;
 }
 
+/* APS AKHIR */
 
 /* Paragraph */
 #page .rank-math-breadcrumb p{
