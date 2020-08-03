@@ -235,18 +235,6 @@ a .wp-post-image{
 	
 }
 
-/* 600px and below screen sizes */
-@media (max-width: 600px){
-
-	.g1-column .g1-mosaic-item{
-		padding-top:90px;
-	}
-
-	
-}
-
-
-
 /* 480px and below screen sizes */
 @media (max-width:480px){
 
@@ -610,19 +598,23 @@ a .wp-post-image{
 		font-weight:500;
 		font-size:10px;
 	}
-	
-}
-
-/* 480px and below screen sizes */
-@media (max-width:480px){
-
-	/* Content left */
+		/* Content left */
 	.aps-container .aps-content-left{
 		width:110%;
 		margin-left:-9px !important;
 	}
+	/* Product box */
+	.aps-products-grid li .aps-product-box{
+		width:100%;
+	}
+	
+	/* Content left */
+	.g1-body-inner #page .aps-content-left{
+		margin-left:-10px !important;
+	}
 	
 }
+
 
 /* Division */
 .aps-main-features .aps-product-meta > div{
