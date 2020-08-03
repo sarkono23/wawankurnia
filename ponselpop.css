@@ -600,18 +600,66 @@ a .wp-post-image{
 	}
 		/* Content left */
 	.aps-container .aps-content-left{
-		width:110%;
-		margin-left:-9px !important;
+		width:112%;
+		margin-left:-20px !important;
 	}
 	/* Product box */
 	.aps-products-grid li .aps-product-box{
 		width:100%;
 	}
-	
-	/* Content left */
-	.g1-body-inner #page .aps-content-left{
-		margin-left:-10px !important;
+
+
+
+
+
+
+	/* Product box */
+	.aps-products-grid li .aps-product-box{
+		width:100%;
+		margin-right:0px;
 	}
+	
+	/* List Item */
+	#page .aps-products-grid > li{
+		height:250px;
+	}
+	
+	/* Product box */
+	.g1-body-inner #page .aps-container .aps-row .aps-content-left .aps-products-grid li .aps-product-box{
+		margin-left:5% !important;
+	}
+	
+	/* Widget */
+	.aps-container .aps-sidebar .aps-widget{
+		width:118% !important;
+		margin-left:-6%;
+	}
+	
+	/* Link */
+	.aps-sidebar .aps-widget .aps-wd-products li a{
+		width:115px !important;
+	}
+	
+	/* Link */
+	.g1-body-inner #page .aps-container .aps-row .aps-sidebar .aps-widget .aps-wd-products li a{
+		height:200px !important;
+	}
+	
+	/* Link */
+	.aps-wd-products li a{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+	/* Wd products */
+	.aps-sidebar .aps-widget .aps-wd-products{
+		margin-left:-10px;
+		margin-right:0px;
+		
+	}
+
+	
+	
 	
 }
 
@@ -726,4 +774,7 @@ a .wp-post-image{
 	font-size: 8px;
 	font-weight: 500;
 }
+
+
+
 
