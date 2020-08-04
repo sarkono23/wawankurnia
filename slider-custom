@@ -1,0 +1,94 @@
+body{
+	font-family: sans-serif;
+	border:1px #ddd solid;
+	padding:5px 5px 20px 5px;
+}
+
+.gallery-cell{
+	width: 160px;
+	height: 90px;
+	margin-right: 10px;
+	counter-increment: gallery-cell;
+	border:1px #ddd solid;
+	border-radius:4px;
+	float:left;
+}
+
+.gallery-cell.is-selected{
+	background: #ED2;
+}
+
+.custom-slider1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align:center;
+}
+
+.custom-slider2{
+	white-space: nowrap;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-overflow: ellipsis;
+	text-align:center;
+	font-weight:500;
+	font-size:15px;
+	position:relative;
+	top:-10px;
+}
+
+/* List */
+.class-css-galery .wpb_wrapper ol{
+	top:94px;
+}
+
+/* List Item */
+.js-flickity ol li{
+	height:7px !important;
+	width:7px !important;
+	background-color:#2ecc71 !important;
+}
+
+.next{
+	top:-45px;
+}
+
+/* Previous */
+.previous{
+	top:-45px;
+}
+
+/* 450px and below screen sizes */
+@media (max-width:450px){
+
+	.next{
+		display: none;
+	}
+	
+	/* Previous */
+	.previous{
+		display: none;
+	}
+	
+	.custom-slider2{
+		white-space: nowrap;
+		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		text-overflow: ellipsis;
+		text-align:center;
+		font-weight:400;
+		font-size:15px;
+		position:relative;
+		top:-10px;
+	}
+	
+	/* Column container */
+	#primary .class-css-galery .vc_column_container{
+		
+	}
+	
+}
