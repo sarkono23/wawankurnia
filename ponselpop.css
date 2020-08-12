@@ -56,3 +56,301 @@ h1, h2, h3, h4{
 #primary .g1-frame .mashsb-micro-wrapper img{
 	height:320px;
 }
+
+.aps-content{
+	font-size: 14px;
+}
+
+/* Entry before title */
+.entry-inner .entry-header .entry-before-title{
+	border-bottom-color:#16a085;
+	border-bottom-width: 1px;
+	border-top-color: #16a085;
+	border-top-width: 1px;
+	margin-top:-10px;
+	height:30px;
+	margin-bottom:5px;
+}
+
+/* Link */
+.entry-categories-l a{
+	margin-top:5px;
+}
+
+#content .entry-before-title a{
+	background-color:transparent;
+	border-style: none;
+	color:#16a085;
+}
+
+#content .entry-before-title a:after{
+	content:"/";
+	margin-left:5px;
+}
+
+.entry-meta .entry-byline-m .entry-date{
+	position:relative;
+	left:-100px;
+	top:15px;
+	color:#16a085;
+	font-size:13px;
+}
+
+/* Strong Tag */
+.entry-author a strong:before{
+	content: "Oleh ";
+}
+
+.g1-footer-stamp-icon{
+	padding-bottom:8px;
+}
+
+.wp-post-image{
+	border-radius:8px;
+}
+
+a .wp-post-image{
+	border-radius:5px;
+}
+
+#page>.g1-row>.g1-row-inner .g1-bin nav ul .menu-item a{
+	border:1px solid #ddd;
+	border-radius:18px;
+	padding:8px 14px 8px 14px;
+	margin:7px 5px 0px 5px;
+	font-size: 14px;
+	font-weight: 700px;
+	color:#000000;
+}
+
+.g1-hamburger-icon{
+	color:#fff;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#16a085;
+}
+
+.g1-secondary-nav-menu{
+	width:100vw;
+	max-width:100%;
+	list-style:none;
+	margin:0;
+	max-width:100%;
+	overflow-y:hidden;
+	overflow-x:auto;
+	-webkit-overflow-scrolling:touch;
+	padding:0px 0;
+	white-space:nowrap;
+}
+
+.g1-hb-row-3 .g1-column{
+	width:100vw!important;
+	position:relative;
+	padding:0;
+	overflow:hidden;
+}
+
+.g1-secondary-nav ::-webkit-scrollbar{
+	height:8px!important;
+}
+
+.g1-secondary-nav ::-webkit-scrollbar-thumb:hover{
+	background:#ccc;
+	-webkit-transition:all .15s ease-out;
+	-moz-transition:all .15s ease-out;
+	transition:all .15s ease-out;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(1) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(2) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(3) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(4) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(5) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(6) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(7) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(8) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(9) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(10) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(11) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(12) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(13) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(14) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(15) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(16) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(17) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(18) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
+
+#page .g1-row:nth-child(3) .menu-item:nth-child(19) a:before{
+	content:"#"!important;
+	display:inline-block!important;
+	font-weight:600;
+	font-family:Sans-serif;
+	padding-right:4px;
+	font-size:110%;
+	color:#34495e;
+}
