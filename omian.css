@@ -610,7 +610,7 @@ a .wp-post-image{
 	
 	/* Content left */
 	.aps-container .aps-content-left{
-		width:112%;
+		width:98%;
 		margin-left:-20px !important;
 	}
 	
@@ -620,7 +620,7 @@ a .wp-post-image{
 	
 	/* Widget */
 	.aps-container .aps-sidebar .aps-widget{
-		width:110% !important;
+		width:98% !important;
 		margin-left:-5%;
 		margin-right:px;
 	}
